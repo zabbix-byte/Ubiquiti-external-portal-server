@@ -1,0 +1,1 @@
+Connectar a una base de datos Mysql con tabla de usuarios deplus adaptas el codigo a tus tablas .
