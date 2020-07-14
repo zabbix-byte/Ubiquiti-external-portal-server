@@ -27,9 +27,9 @@ php -r "unlink('composer-setup.php');"
 ```  
 
 [Instalas la API] 
-
+```  
 php composer.phar require art-of-wifi/unifi-api-client
-
+```
 - Opcion 2 
 -- dentro del composer JSON añades :
 
