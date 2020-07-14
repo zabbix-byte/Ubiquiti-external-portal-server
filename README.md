@@ -1,7 +1,7 @@
 [Servidor APACHE / NGINX]
 - RUTA > guest/s/[id site ubinquiti]
 - Es importante una IP V4
--
+
 
 [Dentro de la configuacion del ubinquiti]
 - Crear site 
@@ -10,7 +10,7 @@
 - Activar Guest y poner site personalizado ip de servidor de site si utilizas https es importante tener el certificado apache ssl si no no funccionara ademas de usuario ssl en
 el ubinquiti
 - añadir dentro de la opciones de red la opcion de incio sin contraseña y guest .
--
+
 
 [Instalacion de la api]
 
@@ -24,7 +24,7 @@ php composer-setup.php
 
 php -r "unlink('composer-setup.php');"
 
--
+
 [Instalas la API] 
 
 php composer.phar require art-of-wifi/unifi-api-client
@@ -39,7 +39,7 @@ php composer.phar require art-of-wifi/unifi-api-client
 }
 
 
--
+
 
 [informacion]
 - dbconfig > contiene la conexion con la base de datos Mysql.
