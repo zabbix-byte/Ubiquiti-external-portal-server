@@ -12,7 +12,7 @@ el ubinquiti
 - añadir dentro de la opciones de red la opcion de incio sin contraseña y guest .
 
 
-[Instalacion de la api]
+[Instalacion composer]
 
 - PHP / composer 
 - instalar composer en la ruta de la aplicacion 
@@ -26,7 +26,7 @@ php composer-setup.php
 php -r "unlink('composer-setup.php');"
 ```  
 
-[Instalas la API] 
+[Instalacion  API] 
 ```  
 php composer.phar require art-of-wifi/unifi-api-client
 ```
@@ -48,6 +48,6 @@ php composer.phar require art-of-wifi/unifi-api-client
 
 - index > contiene la interficie web del login .
 
-[Infomacion]
+[contacto]
 
 - ztrunk@protonmail.com
