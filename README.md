@@ -1,9 +1,9 @@
-[Servidor APACHE / NGINX]
+##[Servidor APACHE / NGINX]
 - RUTA > guest/s/[id site ubinquiti]
 - Es importante una IP V4
 
 
-[Dentro de la configuacion del ubinquiti]
+##[Dentro de la configuacion del ubinquiti]
 - Crear site 
 - Crear usuario administrador
 - Activar opciones avanzadas del site
@@ -12,7 +12,7 @@ el ubinquiti
 - añadir dentro de la opciones de red la opcion de incio sin contraseña y guest .
 
 
-[Instalacion de la api]
+##[Instalacion de la api]
 
 - PHP / composer 
 - instalar composer en la ruta de la aplicacion 
@@ -25,7 +25,7 @@ php composer-setup.php
 php -r "unlink('composer-setup.php');"
 
 
-[Instalas la API] 
+##[Instalas la API] 
 
 php composer.phar require art-of-wifi/unifi-api-client
 
@@ -41,7 +41,7 @@ php composer.phar require art-of-wifi/unifi-api-client
 
 
 
-[informacion]
+##[informacion]
 - dbconfig > contiene la conexion con la base de datos Mysql.
 
 - Connection > contiene los parametros de la api y la verificacion de usuario de la base de datos .
@@ -50,6 +50,6 @@ php composer.phar require art-of-wifi/unifi-api-client
 
 - assets > contiene la libreria fundation .
 
-[Infomacion]
+##[Infomacion]
 
 - ztrunk@protonmail.com
