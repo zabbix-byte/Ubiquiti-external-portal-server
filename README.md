@@ -3,7 +3,7 @@
 - Es importante una IP V4
 
 
-[Dentro de la configuacion del ubinquiti]
+[Dentro de la configuacion del UNIFI]
 - Crear site 
 - Crear usuario administrador
 - Activar opciones avanzadas del site
