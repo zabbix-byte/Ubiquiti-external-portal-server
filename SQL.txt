@@ -1,1 +1,15 @@
 Connectar a una base de datos Mysql con tabla de usuarios deplus adaptas el codigo a tus tablas .
+
+ejemplo SQL : 
+
+CREATE TABLE `cuentas` (
+  `id` int(11) NOT NULL,
+  `usuario` varchar(255) NOT NULL,
+  `contrasena` varchar(255) NOT NULL,
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+ALTER TABLE `cuentas`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
+INSERT INTO `cuentas` (`id`, `usuario`, `contrasena`) VALUES
+(1, 'Prueba', '1234'),
