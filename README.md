@@ -1,6 +1,6 @@
 [Servidor APACHE / NGINX]
 - RUTA > guest/s/[id site ubinquiti]
-- Es importante una IP V4
+- HTTPS 
 
 
 [Dentro de la configuacion del UNIFI]
